@@ -1,6 +1,6 @@
 package project.management;
 
-public class Programmer implements TeamMember {
+public class Programmer extends TeamMember {
     @Override
     public String assignment() {
         return "coding";
