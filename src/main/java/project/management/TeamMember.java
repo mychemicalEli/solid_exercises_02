@@ -1,5 +1,5 @@
 package project.management;
 
-public abstract class TeamMember {
-   public abstract String assignment();
+public interface TeamMember {
+   String assignment();
 }
